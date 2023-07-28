@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "90657462385",
+    "project_id": "notes-app-kotlin",
+    "storage_bucket": "notes-app-kotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90657462385:android:c4ec0ede94690bb90ca3d0",
+        "android_client_info": {
+          "package_name": "practicekotlin_notebook.example.notebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90657462385-cqfb94fb40uguo109up96v6sg5on3nsu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWW9T6FBm513z9prcnQJ3KG-J8JYlEc_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90657462385-cqfb94fb40uguo109up96v6sg5on3nsu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
