@@ -38,17 +38,13 @@ class ViewAllNotes : AppCompatActivity() {
             }
 
             override fun onDataChange(p0: DataSnapshot) {
-
                 if(p0!!.exists()){
-
                     for (h in p0.children){
                         val bal = h.getValue(BalInputDTO::class.java)
                         BalList?.add(bal!!)
                     }
-
                     val adapter = BalAdapter(this@ViewAllNotes, BalList!!)
                     mRecyclerView?.setAdapter(adapter)
-
                 }
             }
         })
